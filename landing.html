@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./landing.css">
+</head>
+
+<body>
+    <div id="main">
+        
+        <center>
+            <h3 id="main-head">Adding Details</h3>
+            <div id="form">
+                <label>Enter Name</label></br>
+                <input type="text" id="name"></br>
+                <label>Enter Age</label></br>
+                <input type="number" id="age"></br>
+                <label>Enter Tech</label></br>
+                <input type="text" id="tech"></br>
+                <label>Enter Role</label></br>
+                <input type="text" id="role"></br>
+                <p id="inner" style="color: red;"></p>
+                <button id="btn" onclick="addDetails()">Add details</button>
+                <a href="./data.html"><button id="btn">Show cards</button></a>
+              
+            </div>
+            <button id="btn" style="width:11rem;border-radius:1rem;" onclick="eraseData()">Clear Local data</button>
+        </center>
+        
+        <div id="modal" class="Show">
+          <h5 id="modal_text">Sucessfully Data Added</h5>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

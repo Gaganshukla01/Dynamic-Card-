@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-head{
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: teal;
+    color: black;
+    font-size: 3rem;
+}
+#form{
+    
+    border: 1px solid grey;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: max-content;
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+
+#btn{
+    background-color: green;
+    border: 1px solid green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 6px;
+    width: 6rem;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;
+}
+
+#btn:hover{
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+p{
+    color: red;
+}
+
+
+#modal{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    padding: 0.3rem;
+    width: 9.5rem;
+    height: 2rem;
+    position: absolute;
+    margin-bottom: 11rem;
+    margin-right: 3rem;
+    right: 0;
+    display: none;
+    
+}
+
+.show{
+    display: block;
+}
+#modal_text{
+    color: green;
+    padding: 9px;
+}
